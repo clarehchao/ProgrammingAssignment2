@@ -38,10 +38,10 @@ cacheSolve <- function(x, ...) {
 }
 
 ## test the above code
-testmat <- matrix(data=rnorm(9),nrow=3,ncol=3)
-testmat
-solve(testmat)
-testmat_c <- makeCacheMatrix(testmat)
-cacheSolve(testmat_c)
-testmat_c$get()
-testmat_c$getinverse()
+#testmat <- matrix(data=rnorm(9),nrow=3,ncol=3)
+#testmat
+#solve(testmat)
+#testmat_c <- makeCacheMatrix(testmat)
+#cacheSolve(testmat_c)
+#testmat_c$get()
+#testmat_c$getinverse()
